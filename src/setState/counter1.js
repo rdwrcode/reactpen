@@ -16,8 +16,8 @@ class BadCounter extends React.Component{
         <h1>Counter1: Bad Counter</h1>
         <h2>An object is passed to setState twice. Will both be merged? No guarantee.</h2> 
         <h2>Hard to see the increment by 2 with each click.</h2>
-        <button onClick={this.increment}>+2</button>
         <div>{this.state.count}</div>
+        <button onClick={this.increment}>+2</button>
         <hr />
       </div>
     )

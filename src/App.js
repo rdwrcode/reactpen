@@ -1,11 +1,14 @@
 import React, { Component } from 'react';
 import logo from './logo.svg';
 import './App.css';
-// add the pen in react
+// 2017/04/07
 import BadCounter from './setState/counter1'
 import GoodCounter from './setState/counter2'
 import CounterFix from './setState/counter3'
 import Multiply from './setState/multiplyby'
+// 2017/04/07
+import NukaDemo from './carousel/nukademo'
+import CoverDemo from './carousel/coverdemo'
 
 class App extends Component {
   render() {
@@ -22,6 +25,8 @@ class App extends Component {
         <GoodCounter />
         <CounterFix step={5} />
         <Multiply />
+        <NukaDemo />
+        <CoverDemo />
       </div>
     );
   }
