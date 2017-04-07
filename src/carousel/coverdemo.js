@@ -14,10 +14,10 @@ export default () => (
     clickable={true}
     active={0}
     >
-    <img src="http://placehold.it/1000x400/ffffff/c0392b/&text=cover1" alt="slide1" data-action={helperfn}/>
-    <img src="http://placehold.it/1000x400/ffffff/c0392b/&text=cover2" alt="slide2"/>
-    <img src="http://placehold.it/1000x400/ffffff/c0392b/&text=cover3" alt="slide3"/>
-    <img src="http://placehold.it/1000x400/ffffff/c0392b/&text=cover4" alt="slide4"/>
-    <img src="http://placehold.it/1000x400/ffffff/c0392b/&text=cover5" alt="slide5"/>
+    <img src="http://lorempixel.com/960/500/people/1/" alt="slide1" data-action={helperfn}/>
+    <img src="http://lorempixel.com/960/500/people/2/" alt="slide2"/>
+    <img src="http://lorempixel.com/960/500/people/3/" alt="slide3"/>
+    <img src="http://lorempixel.com/960/500/people/4/" alt="slide4"/>
+    <img src="http://lorempixel.com/960/500/people/5/" alt="slide5"/>
   </Coverflow>
 )

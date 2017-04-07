@@ -23,3 +23,4 @@ npm i -S react-coverflow
 ```
 npm i -S react-slick slick-carousel
 ```
+Its demo site is (here)[http://neostack.com/opensource/react-slick].
