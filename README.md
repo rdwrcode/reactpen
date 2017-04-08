@@ -23,7 +23,7 @@ npm i -S react-coverflow
 ```
 npm i -S react-slick slick-carousel
 ```
-Its demo site is (here)[http://neostack.com/opensource/react-slick].
+Its demo site is [here](http://neostack.com/opensource/react-slick).
 
 ## this.props.children
 There are severals way to decouple the child and its parent. 
@@ -32,4 +32,3 @@ Try React.Children.map()
 Use Higher order component: (comp) => anotherComp
 
 ## controlled vs. uncontrolled component
- 
