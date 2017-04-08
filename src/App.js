@@ -17,6 +17,8 @@ import Container1 from './propsChildren/FunAsChildComp1'
 import Container2 from './propsChildren/FunAsChildComp2'
 import UseRatioA from './propsChildren/UseRatioA'
 import UseRatioB from './propsChildren/UseRatioB'
+import Demo from './propsChildren/Demo'
+//
 import UncontrolledForm from './controlled/UncontrolledForm'
 import ControlledForm from './controlled/ControlledForm'
 
@@ -43,6 +45,8 @@ class App extends Component {
         <UseRatioA />
         <hr />
         <UseRatioB />
+        <hr />
+        <Demo />
         <hr />
         <h1>~~2017/04/07~~</h1>
         <BadCounter />

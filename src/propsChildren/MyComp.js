@@ -4,7 +4,7 @@ class MyComp extends React.Component {
   render() {
     return (
       <div>
-        {this.props.children('Scuba Steve')}
+        {this.props.children('testing string only')}
       </div>
     )
   }
