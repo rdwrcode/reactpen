@@ -15,6 +15,8 @@ import Parent from './propsChildren/Parent'
 import HigherOrder from './propsChildren/HigherOrder'
 import Container1 from './propsChildren/FunAsChildComp1'
 import Container2 from './propsChildren/FunAsChildComp2'
+import UseRatioA from './propsChildren/UseRatioA'
+import UseRatioB from './propsChildren/UseRatioB'
 
 class App extends Component {
   render() {
@@ -32,6 +34,10 @@ class App extends Component {
         <HigherOrder />
         <Container1 />
         <Container2 />
+        <UseRatioA />
+        <hr />
+        <UseRatioB />
+        <hr />
         <h1>~~2017/04/07~~</h1>
         <BadCounter />
         <GoodCounter />
