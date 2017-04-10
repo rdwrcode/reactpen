@@ -3,7 +3,7 @@ import './weather.css'
 //import s1 from './s1.svg'
 //import s2 from './s2.svg'
 //import s3 from './s3.svg'
-//import s4 from './s4.svg'
+import s4 from './s4.svg'
 
 export default () => (
   <div className='weather-app'>
