@@ -8,6 +8,8 @@
     "react": "^15.4.2",
     "react-coverflow": "^0.2.3",
     "react-dom": "^15.4.2",
+    "react-router": "^4.0.0",
+    "react-router-dom": "^4.0.0",
     "react-slick": "^0.14.7",
     "slick-carousel": "^1.6.0"
   },

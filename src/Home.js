@@ -1,33 +1,31 @@
-import React from 'react'
+import React, { Component } from 'react';
 import {
   BrowserRouter as Router,
   Route,
   Link
-} from 'react-router-dom'
-
+} from 'react-router-dom';
 import About from './about/About';
-import SetState from './SetState'
-import Carousel from './Carousel'
-import Weather from './weather/weather'
 
 const App = () => (
   <Router>
-    <div className="App">
+    <div>
       <ul>
-        <li><Link to="/">About</Link></li>
-        <li><Link to="/setstate">SetState</Link></li>
-        <li><Link to="/carousel">Carousel</Link></li>
-        <li><Link to="/weather">Weather</Link></li>
+        <li><Link to="/">Home</Link></li>
+        <li><Link to="/about">About</Link></li>
       </ul>
 
       <hr/>
 
-      <Route exact path="/" component={About}/>
-      <Route path="/setstate" component={SetState}/>
-      <Route path="/carousel" component={Carousel}/>
-      <Route path="/weather" component={Weather}/>
+      <Route exact path="/" component={Home}/>
+      <Route path="/about" component={About}/>
     </div>
   </Router>
+)
+
+const Home = () => (
+  <div>
+    <h2>Home</h2>
+  </div>
 )
 
 /*

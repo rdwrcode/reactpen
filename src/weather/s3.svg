@@ -1,0 +1,13 @@
+<svg className="state" viewBox="-112.5 -112.5 225 225">
+  <g>
+    <radialGradient id="rg" gradientUnits="userSpaceOnUse" cx="0" cy="0">
+      <stop stopColor="currentColor" stopOpacity="0" offset="0.15"></stop>
+      <stop stopColor="currentColor" offset="0.16"></stop>
+      <stop stopColor="currentColor" offset="0.23"></stop>
+      <stop stopColor="currentColor" stopOpacity="0" offset="0.24"></stop>
+      <stop stopColor="currentColor" stopOpacity="0" offset="0.31"></stop>
+      <stop stopColor="currentColor" offset="0.32"></stop>
+    </radialGradient>
+    <polygon className="starshape" points="0,-50 16,-27.71 43.3,-25 32,0 43.3,25 16,27.71 0,50 -16,27.71 -43.3,25 -32,0 -43.3,-25 -16,-27.71"></polygon>
+  </g>
+</svg>

@@ -32,3 +32,9 @@ Try React.Children.map()
 Use Higher order component: (comp) => anotherComp
 
 ## controlled vs. uncontrolled component
+
+## [react-router v4](https://github.com/ReactTraining/react-router)
+
+## original [weather animation with SVG](http://codepen.io/thebabydino/pen/qrzpBo)
+The original is just SVG and CSS. Port it to React.
+ 
