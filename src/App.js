@@ -12,7 +12,7 @@ import Controlled from './Controlled'
 import PropsChildren from './PropsChildren'
 import Weather from './weather/weather'
 
-const App = () => (
+export default () => (
   <Router>
     <div className="App">
       <ul>
@@ -35,5 +35,3 @@ const App = () => (
     </div>
   </Router>
 )
-
-export default App;
