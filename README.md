@@ -37,4 +37,6 @@ Use Higher order component: (comp) => anotherComp
 
 ## original [weather animation with SVG](http://codepen.io/thebabydino/pen/qrzpBo)
 The original is just SVG and CSS. Port it to React.
- 
+**The main difference between HTML elements and SVG elements is the local coordinate system of the element. 
+For HTML elements, this coordinate system originates at the 50% 50% point of the element. 
+For SVG elements, the origin is, assuming we have no transform applied on the element itself or any of its ancestors inside the <svg> element, at the 0 0 point of the SVG canvas. **

@@ -11,6 +11,8 @@ import Carousel from './Carousel'
 import Controlled from './Controlled'
 import PropsChildren from './PropsChildren'
 import Weather from './weather/weather'
+import Overflow from './overflow/overflow'
+import Play from './Play'
 
 export default () => (
   <Router>
@@ -22,6 +24,8 @@ export default () => (
         <li><Link to="/controlled">Controlled</Link></li>
         <li><Link to="/propschildren">PropsChildren</Link></li>
         <li><Link to="/weather">Weather</Link></li>
+        <li><Link to="/overflow">Overflow</Link></li>
+        <li><Link to="/play">Play</Link></li>
       </ul>
 
       <hr/>
@@ -32,6 +36,8 @@ export default () => (
       <Route path="/controlled" component={Controlled}/>
       <Route path="/propschildren" component={PropsChildren}/>
       <Route path="/weather" component={Weather}/>
+      <Route path="/overflow" component={Overflow}/>
+      <Route path="/play" component={Play}/>
     </div>
   </Router>
 )
