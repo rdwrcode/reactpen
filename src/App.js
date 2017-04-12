@@ -20,30 +20,30 @@ export default () => (
   <Router>
     <div className="App">
       <ul>
-        <li><Link to="/">About</Link></li>
-        <li><Link to="/setstate">SetState</Link></li>
-        <li><Link to="/carousel">Carousel</Link></li>
-        <li><Link to="/controlled">Controlled</Link></li>
-        <li><Link to="/propschildren">PropsChildren</Link></li>
-        <li><Link to="/weather">Weather</Link></li>
-        <li><Link to="/overflow">Overflow</Link></li>
-        <li><Link to="/play">Play</Link></li>
-        <li><Link to="/nav">Nav</Link></li>
-        <li><Link to="/noroute">Noroute</Link></li>
+        <li><Link to="/reactpen">About</Link></li>
+        <li><Link to="/reactpen/setstate">SetState</Link></li>
+        <li><Link to="/reactpen/carousel">Carousel</Link></li>
+        <li><Link to="/reactpen/controlled">Controlled</Link></li>
+        <li><Link to="/reactpen/propschildren">PropsChildren</Link></li>
+        <li><Link to="/reactpen/weather">Weather</Link></li>
+        <li><Link to="/reactpen/overflow">Overflow</Link></li>
+        <li><Link to="/reactpen/play">Play</Link></li>
+        <li><Link to="/reactpen/nav">Nav</Link></li>
+        <li><Link to="/reactpen/noroute">Noroute</Link></li>
       </ul>
 
       <hr/>
 
-      <Route exact path="/" component={About}/>
-      <Route path="/setstate" component={SetState}/>
-      <Route path="/carousel" component={Carousel}/>
-      <Route path="/controlled" component={Controlled}/>
-      <Route path="/propschildren" component={PropsChildren}/>
-      <Route path="/weather" component={Weather}/>
-      <Route path="/overflow" component={Overflow}/>
-      <Route path="/play" component={Play}/>
-      <Route path="/nav" component={NavDemo}/>
-      <Route path="/noroute" component={Noroute}/>
+      <Route exact path="/reactpen" component={About}/>
+      <Route path="/reactpen/setstate" component={SetState}/>
+      <Route path="/reactpen/carousel" component={Carousel}/>
+      <Route path="/reactpen/controlled" component={Controlled}/>
+      <Route path="/reactpen/propschildren" component={PropsChildren}/>
+      <Route path="/reactpen/weather" component={Weather}/>
+      <Route path="/reactpen/overflow" component={Overflow}/>
+      <Route path="/reactpen/play" component={Play}/>
+      <Route path="/reactpen/nav" component={NavDemo}/>
+      <Route path="/reactpen/noroute" component={Noroute}/>
     </div>
   </Router>
 )
