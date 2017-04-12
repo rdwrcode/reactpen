@@ -1,38 +1,9 @@
 import React from 'react'
-import {
-  BrowserRouter as Router,
-  Route,
-  Link
-} from 'react-router-dom'
-import './nav.css'
+import './noroute.css'
 
 const colors = ["deepskyblue", "orange", "firebrick", "gold", "magenta", "black", "darkblue"]
 
-const Home = () => (
-  <div>Home</div>
-)
-
-const About = () => (
-  <div>About</div>
-)
-
-const Company = () => (
-  <div>Company</div>
-)
-
-const Work = () => (
-  <div>Work</div>
-)
-
-const Clients = () => (
-  <div>Clients</div>
-)
-
-const Contact = () => (
-  <div>Contact</div>
-)
-
-class Nav extends React.Component {
+class Noroute extends React.Component {
 
   constructor(props) {
     super(props)
@@ -138,30 +109,23 @@ class Nav extends React.Component {
 
   render() {
     return (
-      <Router>
-        <div className='Nav-app'>
-          <h1 className='Nav-h1'>Hover over the links</h1>
-          <nav className="mynav" ref="mynav">
-            <span className="target" ref="target"></span>
-            <ul>
-              <li><Link to='/nav/home'>Home</Link></li>
-              <li><Link to='/nav/about'>About</Link></li>
-              <li><Link to='/nav/company'>Company</Link></li>
-              <li><Link to='/nav/work'>Work</Link></li>
-              <li><Link to='/nav/clients'>Clients</Link></li>
-              <li><Link to='/nav/contact'>Contact</Link></li>
-            </ul>
-            <Route path="/nav/home" component={Home}/>
-            <Route path="/nav/about" component={About}/>
-            <Route path="/nav/company" component={Company}/>
-            <Route path="/nav/work" component={Work}/>
-            <Route path="/nav/clients" component={Clients}/>
-            <Route path="/nav/contact" component={Contact}/>
-          </nav>
-        </div>
-      </Router>
+      <div className='Noroute-app'>
+        <h1 className='Noroute-h1'>Hover over the links</h1>
+        <nav ref="mynav" className="mynav">
+          <ul>
+            <li><a href="">Home</a></li>
+            <li><a href="">About</a></li>
+            <li><a href="">Company</a></li>
+            <li><a href="">Work</a></li>
+            <li><a href="">Clients</a></li>
+            <li><a href="">Contact</a></li>
+          </ul>
+        </nav>
+
+        <span ref='target' className="target"></span>
+      </div>
     )
   }
 }
 
-export default Nav
+export default Noroute

@@ -43,5 +43,6 @@ For SVG elements, the origin is, assuming we have no transform applied on the el
 
 ## [hover effect](http://codepen.io/tutsplus/pen/XMPQGV)
 Rewrite this effect into React component. Think about how to manipulate the style in JS?
+React-router or styling is affecting the hover effect somehow. noroute works fine.
 
 
