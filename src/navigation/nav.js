@@ -151,13 +151,13 @@ class Nav extends React.Component {
               <li><Link to='/nav/clients'>Clients</Link></li>
               <li><Link to='/nav/contact'>Contact</Link></li>
             </ul>
-            <Route path="/nav/home" component={Home}/>
-            <Route path="/nav/about" component={About}/>
-            <Route path="/nav/company" component={Company}/>
-            <Route path="/nav/work" component={Work}/>
-            <Route path="/nav/clients" component={Clients}/>
-            <Route path="/nav/contact" component={Contact}/>
           </nav>
+          <Route path="/nav/home" component={Home}/>
+          <Route path="/nav/about" component={About}/>
+          <Route path="/nav/company" component={Company}/>
+          <Route path="/nav/work" component={Work}/>
+          <Route path="/nav/clients" component={Clients}/>
+          <Route path="/nav/contact" component={Contact}/>
         </div>
       </Router>
     )
