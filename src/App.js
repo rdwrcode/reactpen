@@ -13,6 +13,7 @@ import PropsChildren from './PropsChildren'
 import Weather from './weather/weather'
 import Overflow from './overflow/overflow'
 import Play from './Play'
+import NavDemo from './navigation/nav'
 
 export default () => (
   <Router>
@@ -26,6 +27,7 @@ export default () => (
         <li><Link to="/weather">Weather</Link></li>
         <li><Link to="/overflow">Overflow</Link></li>
         <li><Link to="/play">Play</Link></li>
+        <li><Link to="/nav">Nav</Link></li>
       </ul>
 
       <hr/>
@@ -38,6 +40,7 @@ export default () => (
       <Route path="/weather" component={Weather}/>
       <Route path="/overflow" component={Overflow}/>
       <Route path="/play" component={Play}/>
+      <Route path="/nav" component={NavDemo}/>
     </div>
   </Router>
 )
