@@ -48,12 +48,11 @@ class Nav extends React.Component {
   }
 
   mouseEnterHandler(e) {
-    console.log(this.refs.mynav)
-    console.log(e.target)
-    //console.log(e.target.findDOMNode('a'))
-    console.log(e.target.parentNode)
-    console.log(e.target.parentNode.classList.contains("active"))
-    console.log(e.target.parentNode.classList)
+    //console.log(this.refs.mynav)
+    //console.log(e.target)
+    //console.log(e.target.parentNode)
+    //console.log(e.target.parentNode.classList.contains("active"))
+    //console.log(e.target.parentNode.classList)
 
     if (!e.target.parentNode.classList.contains("active")) {
       const links = document.querySelectorAll(".mynav a");
