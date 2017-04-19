@@ -50,5 +50,11 @@ noroute works fine.
 nav can work if no click to add child component. New child component changes the layout so the span could not show up.
 It has nothing to do with react-router.
 
+## Glamorous with sibling selector
+```
+npm i -S glamorous
+```
 
+## Ask DOM for color value
+Input a color name, the DOM returns the rgb value of it. 
 
