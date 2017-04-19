@@ -55,6 +55,6 @@ It has nothing to do with react-router.
 npm i -S glamorous
 ```
 
-## Ask DOM for color value
+## [Ask DOM for color value](http://jsfiddle.net/developit/tneyp3gr/)
 Input a color name, the DOM returns the rgb value of it. 
 
