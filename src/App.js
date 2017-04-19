@@ -15,6 +15,7 @@ import Overflow from './overflow/overflow'
 import Play from './Play'
 import NavDemo from './navigation/nav'
 import Noroute from './navigation/noroute'
+import Selector from './sibling/selector'
 
 export default () => (
   <Router>
@@ -30,6 +31,7 @@ export default () => (
         <li><Link to="/reactpen/play">Play</Link></li>
         <li><Link to="/reactpen/nav">Nav</Link></li>
         <li><Link to="/reactpen/noroute">Noroute</Link></li>
+        <li><Link to="/reactpen/selector">Selector</Link></li>
       </ul>
 
       <hr/>
@@ -44,6 +46,7 @@ export default () => (
       <Route path="/reactpen/play" component={Play}/>
       <Route path="/reactpen/nav" component={NavDemo}/>
       <Route path="/reactpen/noroute" component={Noroute}/>
+      <Route path="/reactpen/selector" component={Selector}/>
     </div>
   </Router>
 )
