@@ -17,6 +17,7 @@ import NavDemo from './navigation/nav'
 import Noroute from './navigation/noroute'
 import Selector from './sibling/selector'
 import ColorValue from './askdom/colorvalue'
+import CD from './countdown/cd'
 
 export default () => (
   <Router>
@@ -34,6 +35,7 @@ export default () => (
         <li><Link to="/reactpen/noroute">Noroute</Link></li>
         <li><Link to="/reactpen/selector">Selector</Link></li>
         <li><Link to="/reactpen/colorvalue">ColorValue</Link></li>
+        <li><Link to="/reactpen/countdown">Countdown</Link></li>
       </ul>
 
       <hr/>
@@ -50,6 +52,7 @@ export default () => (
       <Route path="/reactpen/noroute" component={Noroute}/>
       <Route path="/reactpen/selector" component={Selector}/>
       <Route path="/reactpen/colorvalue" component={ColorValue}/>
+      <Route path="/reactpen/countdown" component={CD}/>
     </div>
   </Router>
 )

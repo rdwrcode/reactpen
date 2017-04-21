@@ -20,7 +20,11 @@ class ColorValue extends React.Component {
   }
 
   getColorValue(name) {
-    this.state.node.style.color = name
+    const mynode = this.state.node
+    mynode.style.color = name
+    this.setState({node: mynode})
+
+    //this.state.node.style.color = name
     return getComputedStyle(this.state.node).color
   }
 
