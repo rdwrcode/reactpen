@@ -1,0 +1,32 @@
+/*
+.box-container {
+ display: flex;
+}
+*/
+
+.box1 {
+  height: 80px;
+  width: 80px;
+  background-color: #33f;
+}
+
+.box2 {
+  height: 80px;
+  width: 80px;
+  background-color: #844;
+}
+/*
+
+.box {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 3rem;
+  color: white;
+  background-color: #333;
+  height: 100px;
+  min-width: 100px;
+  width: 100px;
+  text-shadow: 1px 1px 1px rgba(0, 0, 0, .85);
+}
+*/

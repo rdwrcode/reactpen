@@ -58,3 +58,9 @@ npm i -S glamorous
 ## [Ask DOM for color value](http://jsfiddle.net/developit/tneyp3gr/)
 Input a color name, the DOM returns the rgb value of it. 
 
+## Add a countdown timer
+
+## GSAP with react exercise
+TweenMax includes TweenLite, CSSPlugin, EasePack, TimelineLite, TimelineMax, RoundPropsPlugin, BezierPlugin, AttrPlugin, DirectionalRotationPlugin.
+
+

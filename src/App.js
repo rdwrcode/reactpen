@@ -18,6 +18,8 @@ import Noroute from './navigation/noroute'
 import Selector from './sibling/selector'
 import ColorValue from './askdom/colorvalue'
 import CD from './countdown/cd'
+import Walk from './keepwalking/walk'
+import Box from './gsap/container'
 
 export default () => (
   <Router>
@@ -36,6 +38,8 @@ export default () => (
         <li><Link to="/reactpen/selector">Selector</Link></li>
         <li><Link to="/reactpen/colorvalue">ColorValue</Link></li>
         <li><Link to="/reactpen/countdown">Countdown</Link></li>
+        <li><Link to="/reactpen/walk">KeppWalking</Link></li>
+        <li><Link to="/reactpen/box">Box</Link></li>
       </ul>
 
       <hr/>
@@ -53,6 +57,8 @@ export default () => (
       <Route path="/reactpen/selector" component={Selector}/>
       <Route path="/reactpen/colorvalue" component={ColorValue}/>
       <Route path="/reactpen/countdown" component={CD}/>
+      <Route path="/reactpen/walk" component={Walk}/>
+      <Route path="/reactpen/box" component={Box}/>
     </div>
   </Router>
 )

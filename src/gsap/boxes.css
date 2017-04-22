@@ -1,0 +1,26 @@
+
+.box4 {
+  position: absolute;
+  top: 200px;
+  left: 150px;
+  height: 80px;
+  width: 80px;
+  background-color: #333;
+  margin: 200px;
+}
+
+/*
+
+.box {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 3rem;
+  color: white;
+  background-color: #333;
+  height: 100px;
+  min-width: 100px;
+  width: 100px;
+  text-shadow: 1px 1px 1px rgba(0, 0, 0, .85);
+}
+*/
