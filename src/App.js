@@ -20,6 +20,7 @@ import ColorValue from './askdom/colorvalue'
 import CD from './countdown/cd'
 import Walk from './keepwalking/walk'
 import Box from './gsap/container'
+import ColorBox from './colorbox/box'
 
 export default () => (
   <Router>
@@ -40,6 +41,7 @@ export default () => (
         <li><Link to="/reactpen/countdown">Countdown</Link></li>
         <li><Link to="/reactpen/walk">KeppWalking</Link></li>
         <li><Link to="/reactpen/box">Box</Link></li>
+        <li><Link to="/reactpen/colorbox">ColorBox</Link></li>
       </ul>
 
       <hr/>
@@ -59,6 +61,7 @@ export default () => (
       <Route path="/reactpen/countdown" component={CD}/>
       <Route path="/reactpen/walk" component={Walk}/>
       <Route path="/reactpen/box" component={Box}/>
+      <Route path="/reactpen/colorbox" component={ColorBox}/>
     </div>
   </Router>
 )
