@@ -21,6 +21,8 @@ import CD from './countdown/cd'
 import Walk from './keepwalking/walk'
 import Box from './gsap/container'
 import ColorBox from './colorbox/box'
+import FlexBox from './flexbox/parentkid'
+import Funcomp from './funcomp'
 
 export default () => (
   <Router>
@@ -42,6 +44,8 @@ export default () => (
         <li><Link to="/reactpen/walk">KeppWalking</Link></li>
         <li><Link to="/reactpen/box">Box</Link></li>
         <li><Link to="/reactpen/colorbox">ColorBox</Link></li>
+        <li><Link to="/reactpen/flexbox">FlexBox</Link></li>
+        <li><Link to="/reactpen/funcomp">Funcomp</Link></li>
       </ul>
 
       <hr/>
@@ -62,6 +66,8 @@ export default () => (
       <Route path="/reactpen/walk" component={Walk}/>
       <Route path="/reactpen/box" component={Box}/>
       <Route path="/reactpen/colorbox" component={ColorBox}/>
+      <Route path="/reactpen/flexbox" component={FlexBox}/>
+      <Route path="/reactpen/funcomp" component={Funcomp}/>
     </div>
   </Router>
 )
