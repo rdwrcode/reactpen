@@ -67,4 +67,5 @@ TweenMax includes TweenLite, CSSPlugin, EasePack, TimelineLite, TimelineMax, Rou
 ```
 yarn add freactal
 ```
+[codesandbox](https://codesandbox.io/) is nice to play.
 
