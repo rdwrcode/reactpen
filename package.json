@@ -4,6 +4,8 @@
   "private": true,
   "homepage": "http://rdwrcode.github.io/reactpen",
   "dependencies": {
+    "delay": "^2.0.0",
+    "freactal": "^1.0.0",
     "glamor": "^2.20.24",
     "glamorous": "^3.7.1",
     "nuka-carousel": "^2.0.4",

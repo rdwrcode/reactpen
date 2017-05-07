@@ -63,4 +63,8 @@ Input a color name, the DOM returns the rgb value of it.
 ## GSAP with react exercise
 TweenMax includes TweenLite, CSSPlugin, EasePack, TimelineLite, TimelineMax, RoundPropsPlugin, BezierPlugin, AttrPlugin, DirectionalRotationPlugin.
 
+## [preactal](https://github.com/FormidableLabs/freactal)
+```
+yarn add freactal
+```
 

@@ -23,6 +23,7 @@ import Box from './gsap/container'
 import ColorBox from './colorbox/box'
 import FlexBox from './flexbox/parentkid'
 import Funcomp from './funcomp'
+import Fstate from './fstate/count'
 
 export default () => (
   <Router>
@@ -46,6 +47,7 @@ export default () => (
         <li><Link to="/reactpen/colorbox">ColorBox</Link></li>
         <li><Link to="/reactpen/flexbox">FlexBox</Link></li>
         <li><Link to="/reactpen/funcomp">Funcomp</Link></li>
+        <li><Link to="/reactpen/fstate">Fstate</Link></li>
       </ul>
 
       <hr/>
@@ -68,6 +70,7 @@ export default () => (
       <Route path="/reactpen/colorbox" component={ColorBox}/>
       <Route path="/reactpen/flexbox" component={FlexBox}/>
       <Route path="/reactpen/funcomp" component={Funcomp}/>
+      <Route path="/reactpen/fstate" component={Fstate}/>
     </div>
   </Router>
 )
