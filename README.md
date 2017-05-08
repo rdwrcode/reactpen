@@ -69,3 +69,12 @@ yarn add freactal
 ```
 [codesandbox](https://codesandbox.io/) is nice to play.
 
+## [D3v4 + React](https://medium.com/@Elijah_Meeks/interactive-applications-with-react-d3-f76f7b3ebc71)
+the challenge to combine D3 with React is that both want to control the DOM.
+d3 has its own select/enter/exit/update pattern. this conflicts with react virtual DOM.
+
+One way is to give D3 a DOM container (e.g. <svg>) and let D3 take care of it.
+use react to create elements, use d3 to visualize them.
+
+Here is the reference [repo](https://github.com/emeeks/d3_in_action_2) check ch9.
+Some issues with this. Need to debug it later!!!
