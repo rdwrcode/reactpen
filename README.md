@@ -69,7 +69,7 @@ yarn add freactal
 ```
 [codesandbox](https://codesandbox.io/) is nice to play.
 
-## [D3v4 + React](https://medium.com/@Elijah_Meeks/interactive-applications-with-react-d3-f76f7b3ebc71)
+## WIP: debug it [D3v4 + React](https://medium.com/@Elijah_Meeks/interactive-applications-with-react-d3-f76f7b3ebc71)
 the challenge to combine D3 with React is that both want to control the DOM.
 d3 has its own select/enter/exit/update pattern. this conflicts with react virtual DOM.
 
