@@ -78,3 +78,5 @@ use react to create elements, use d3 to visualize them.
 
 Here is the reference [repo](https://github.com/emeeks/d3_in_action_2) check ch9.
 Some issues with this. Need to debug it later!!!
+Simplified version d3barchart has issues too.
+
