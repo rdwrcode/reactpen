@@ -26,6 +26,7 @@ import Funcomp from './funcomp'
 import Fstate from './fstate/count'
 import D3map from './d3map/AppBar'
 import D3barchart from './d3barchart/App'
+import Button from './button/Button'
 
 export default () => (
   <Router>
@@ -52,6 +53,7 @@ export default () => (
         <li><Link to="/reactpen/fstate">Fstate</Link></li>
         <li><Link to="/reactpen/d3map">D3map</Link></li>
         <li><Link to="/reactpen/d3barchart">D3barchart</Link></li>
+        <li><Link to="/reactpen/button">Button</Link></li>
       </ul>
 
       <hr/>
@@ -77,6 +79,7 @@ export default () => (
       <Route path="/reactpen/fstate" component={Fstate}/>
       <Route path="/reactpen/d3map" component={D3map}/>
       <Route path="/reactpen/d3barchart" component={D3barchart}/>
+      <Route path="/reactpen/button" component={Button}/>
     </div>
   </Router>
 )
