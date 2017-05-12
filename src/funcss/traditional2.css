@@ -1,0 +1,11 @@
+.traditional2 {
+  display: flex;
+}
+
+/* warning button */
+.button-warning {
+  background-color: tomato;
+  padding: 1rem 2rem;
+  color: white;
+  border-radius: 3px;
+}

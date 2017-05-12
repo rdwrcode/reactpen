@@ -1,0 +1,17 @@
+.functional2 {
+  display: flex;
+}
+
+/* warning button */
+.button-warning {
+  background-color: tomato;
+  padding: 1rem 2rem;
+  color: white;
+  border-radius: 3px;
+}
+
+.bg-tomato { background-color: tomato; }
+.pv1 { padding-top: 1rem; padding-bottom: 1rem; }
+.ph2 { padding-left: 2rem; padding-right: 2rem; }
+.white { color: white; }
+.br3 { border-radius: 3px; }

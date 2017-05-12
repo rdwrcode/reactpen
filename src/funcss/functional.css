@@ -1,0 +1,5 @@
+.functional { display: flex; }
+.bg-tomato { background-color: tomato; }
+.pv1 { padding-top: 1rem; padding-bottom: 1rem; }
+.ph2 { padding-left: 2rem; padding-right: 2rem; }
+.white { color: white; }

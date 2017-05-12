@@ -27,6 +27,10 @@ import Fstate from './fstate/count'
 import D3map from './d3map/AppBar'
 import D3barchart from './d3barchart/App'
 import Button from './button/Button'
+import Warning from './funcss/traditional'
+import WarningButton from './funcss/traditional2'
+import Warning2 from './funcss/functional'
+import WarningButton2 from './funcss/functional2'
 
 export default () => (
   <Router>
@@ -54,6 +58,10 @@ export default () => (
         <li><Link to="/reactpen/d3map">D3map</Link></li>
         <li><Link to="/reactpen/d3barchart">D3barchart</Link></li>
         <li><Link to="/reactpen/button">Button</Link></li>
+        <li><Link to="/reactpen/warning">Warning</Link></li>
+        <li><Link to="/reactpen/warning2">Warning2</Link></li>
+        <li><Link to="/reactpen/warningbutton">WarningButton</Link></li>
+        <li><Link to="/reactpen/warningbutton2">WarningButton2</Link></li>
       </ul>
 
       <hr/>
@@ -80,6 +88,10 @@ export default () => (
       <Route path="/reactpen/d3map" component={D3map}/>
       <Route path="/reactpen/d3barchart" component={D3barchart}/>
       <Route path="/reactpen/button" component={Button}/>
+      <Route path="/reactpen/warning" component={Warning}/>
+      <Route path="/reactpen/warning2" component={Warning2}/>
+      <Route path="/reactpen/warningbutton" component={WarningButton}/>
+      <Route path="/reactpen/warningbutton2" component={WarningButton2}/>
     </div>
   </Router>
 )

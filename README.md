@@ -82,4 +82,9 @@ Simplified version d3barchart has issues too.
 
 ## [button effects](http://codepen.io/jlongster/pen/YVejaV)
 
+## study tachyons
+there are different ways to write CSS. Different ways serve different purpose. No right or wrong.
 
+Here is the first part of [four parts exploration of tachyons](https://hackernoon.com/full-re-write-with-tachyons-and-functional-css-a-case-study-part-1-635ccb5fb00b)
+
+## TODO: try [Flexboxgrid](http://flexboxgrid.com/)
