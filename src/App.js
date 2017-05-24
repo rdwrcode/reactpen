@@ -32,6 +32,8 @@ import WarningButton from './funcss/traditional2'
 import Warning2 from './funcss/functional'
 import WarningButton2 from './funcss/functional2'
 
+import SimpleSVG from './svgcomp/umbrella'
+
 export default () => (
   <Router>
     <div className="App">
@@ -49,7 +51,7 @@ export default () => (
         <li><Link to="/reactpen/selector">Selector</Link></li>
         <li><Link to="/reactpen/colorvalue">ColorValue</Link></li>
         <li><Link to="/reactpen/countdown">Countdown</Link></li>
-        <li><Link to="/reactpen/walk">KeppWalking</Link></li>
+        <li><Link to="/reactpen/walk">KeepWalking</Link></li>
         <li><Link to="/reactpen/box">Box</Link></li>
         <li><Link to="/reactpen/colorbox">ColorBox</Link></li>
         <li><Link to="/reactpen/flexbox">FlexBox</Link></li>
@@ -62,6 +64,7 @@ export default () => (
         <li><Link to="/reactpen/warning2">Warning2</Link></li>
         <li><Link to="/reactpen/warningbutton">WarningButton</Link></li>
         <li><Link to="/reactpen/warningbutton2">WarningButton2</Link></li>
+        <li><Link to="/reactpen/simplesvg">SimpleSVG</Link></li>
       </ul>
 
       <hr/>
@@ -92,6 +95,7 @@ export default () => (
       <Route path="/reactpen/warning2" component={Warning2}/>
       <Route path="/reactpen/warningbutton" component={WarningButton}/>
       <Route path="/reactpen/warningbutton2" component={WarningButton2}/>
+      <Route path="/reactpen/simplesvg" component={SimpleSVG}/>
     </div>
   </Router>
 )
